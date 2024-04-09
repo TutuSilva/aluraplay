@@ -45,20 +45,30 @@
   gap: 5px;
 }
 /* video */
+.videos__container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 33px;
+}
 .videos__item {
   height: 303px;
   width: 280px;
+  text-align: center;
 }
 /* Video descrition */
-.descricao-video {
-
-}
 .descricao-video img {
-
+  padding: 1%;
+}
+.descricao-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
 }
 .descricao-video h3 {
-}
-.descricao-video p {
+  width: 83%;
 }
 /*Footer*/
 .rodape__container {
