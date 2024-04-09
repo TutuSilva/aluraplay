@@ -45,31 +45,32 @@
   gap: 5px;
 }
 /* video */
-.videos__container{
+.videos__container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 33px;
+  gap: 15px;
 }
 .videos__item {
   height: 303px;
   width: 280px;
   text-align: center;
+  flex-grow: 1;
 }
 /* Video descrition */
-.descricao-video img {
-  padding: 1%;
-}
+
 .descricao-video {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  padding-top: 5%;
+  margin-top: 3%;
+  row-gap: 10px;
 }
-.descricao-video h3 {
-  width: 83%;
+.descricao-video h3,
+p {
+  width: 85%;
 }
+
 /*Footer*/
 .rodape__container {
   display: flex;
